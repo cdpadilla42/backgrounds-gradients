@@ -6,4 +6,4 @@ A recreation of a former apple homepage to explore the usage of background image
 
 ## Demo Link
 
-[View app in browser](https://cdpadilla42.github.io/article-project/)
+[View app in browser](https://cdpadilla42.github.io/backgrounds-gradients/)
