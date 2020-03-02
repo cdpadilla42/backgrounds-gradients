@@ -236,3 +236,7 @@ h3 {
   flex-basis: 512px;
   border: 1px solid hotpink;
 }
+
+.footer-list li {
+  margin-bottom: 20px;
+}
