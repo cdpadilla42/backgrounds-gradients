@@ -145,9 +145,16 @@ html {
 .hero-div {
   background: url('./imgs/hero.jpg');
   background-position: 50% 100%;
-  background-size: 100% auto;
+  background-size: 1440px auto;
   width: 100vw;
   height: 538px;
+}
+
+@media all and (min-width: 1440px) {
+  /* let the image grow */
+  .hero-div {
+    background-size: 100% auto;
+  }
 }
 
 .nav {
