@@ -201,6 +201,22 @@ h3 {
   font-size: 25px;
 }
 
+/* Nav Layout */
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+}
+
+.nav li {
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+}
+
 /* Products flex */
 
 .product-item {
