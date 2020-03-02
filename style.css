@@ -168,11 +168,13 @@ html {
   width: 100vw;
   min-width: 1025px;
   height: 200px;
+  display: flex;
 }
 
 .footer-container {
   background-color: yellowgreen;
   width: 100vw;
+  min-width: 1025px;
   height: 90px;
 }
 
@@ -195,4 +197,24 @@ h2 {
 
 h3 {
   font-size: 25px;
+}
+
+/* Products flex */
+
+.product-item {
+  flex: 1;
+  border: 1px solid greenyellow;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+}
+
+.left,
+.right {
+  flex-grow: 1;
+  flex-basis: 512px;
+  border: 1px solid hotpink;
 }
