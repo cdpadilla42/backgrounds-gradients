@@ -221,6 +221,8 @@ h3 {
     rgb(112, 112, 112) 50%,
     rgb(141, 141, 141)
   );
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-radius: 5px;
 }
 
 .nav-item {
@@ -229,7 +231,7 @@ h3 {
 
 .nav li {
   color: white;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   display: flex;
   align-items: center;
   justify-content: center;
