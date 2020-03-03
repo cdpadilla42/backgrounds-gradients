@@ -157,8 +157,9 @@ html {
   }
 }
 
+/* NEXT: MAKE IT SO ALL ELEMENTS DON'T RECENTER AFTER THE WINDOW GETS SMALL */
+
 .nav {
-  background-color: green;
   width: 980px;
   height: 36px;
   margin: 0 auto;
@@ -213,6 +214,13 @@ h3 {
 
 .nav {
   display: flex;
+  background: linear-gradient(
+    0deg,
+    rgb(104, 104, 104),
+    rgb(94, 94, 94) 50%,
+    rgb(112, 112, 112) 50%,
+    rgb(141, 141, 141)
+  );
 }
 
 .nav-item {
