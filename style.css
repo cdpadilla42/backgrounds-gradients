@@ -214,6 +214,7 @@ h3 {
 
 .nav {
   display: flex;
+  background: linear-gradient();
   background: linear-gradient(
     0deg,
     rgb(104, 104, 104),
@@ -264,6 +265,8 @@ h3 {
 
 .footer-container {
   display: flex;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
 .left,
