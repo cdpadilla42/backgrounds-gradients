@@ -250,6 +250,9 @@ h3 {
   text-decoration: none;
 }
 
+.nav li:last-child {
+  border-right: none;
+}
 /* Products flex */
 
 .product-item {
