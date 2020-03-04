@@ -279,3 +279,29 @@ h3 {
 .footer-list li {
   margin-bottom: 20px;
 }
+
+/* Promo Styles */
+
+#pane1 {
+  background: url('./imgs/promo_iphone5c_2x.jpg');
+}
+
+#pane2 {
+  background: url('./imgs/promo_iphone5s_2x.jpg');
+}
+
+#pane3 {
+  background: url('./imgs/promo_30_years_2x.jpg');
+}
+
+#pane4 {
+  background: url('./imgs/promo_supplier_responsibility_2x.jpg');
+}
+
+#pane1,
+#pane2,
+#pane3,
+#pane4 {
+  background-position: 50% 0;
+  background-size: auto 198px;
+}
